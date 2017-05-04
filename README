@@ -4,4 +4,8 @@ Custom dotfiles - work in progress
 After download:
 
 - Fill gitconfig file with user infos
+- brew cask install java
+- cat brew-list.txt | xargs brew install
 
+# TODO
+ - bin to automatize install java, homembrew items
