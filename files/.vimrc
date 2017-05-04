@@ -21,12 +21,10 @@ set wildmenu
 
 set display+=lastline
 
-set formatoptions+=j
-
 syntax on
 filetype plugin indent on
 
-#Vim Plug: https://github.com/junegunn/vim-plug
+" Vim Plug: https://github.com/junegunn/vim-plug
 call plug#begin()
 
 Plug 'vim-airline/vim-airline'
