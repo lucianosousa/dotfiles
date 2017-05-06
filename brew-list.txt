@@ -56,3 +56,4 @@ sqlite
 wget
 wxmac
 xz
+yarn
