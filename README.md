@@ -4,6 +4,7 @@
 After download:
 
 - Fill gitconfig file with user infos
+- `xcode-select --install`
 - https://support.apple.com/kb/DL1572?locale=en_US
 - brew cask install java
 - cat brew-list.txt | xargs brew install
