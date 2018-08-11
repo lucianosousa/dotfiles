@@ -1,0 +1,3 @@
+brew cask install java
+brew cask install homebrew/cask-versions/java8
+cat brew-list.txt | xargs brew install
