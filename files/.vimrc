@@ -18,6 +18,7 @@ set paste
 set ruler
 set cursorline
 set wildmenu
+set ignorecase
 
 set display+=lastline
 
