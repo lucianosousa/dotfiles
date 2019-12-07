@@ -24,6 +24,7 @@ let g:ale_lint_on_text_changed = 'normal'
 let g:ale_lint_on_insert_leave = 1
 " show error details with m[ore details]
 
+set autoindent
 set clipboard+=unnamed
 set cursorline
 set display+=lastline
@@ -32,7 +33,6 @@ set expandtab
 set ignorecase
 set laststatus=2
 set number
-set paste
 set ruler
 set shiftwidth=2
 set softtabstop=2
