@@ -13,6 +13,9 @@ nnoremap <leader><space> :nohlsearch<CR>
 
 nnoremap <Leader>m :ALEDetail<CR>
 
+vnoremap <leader>yy   "+y "copying outside vim
+noremap  <leader>pp   "+p "pasting inside vim from outside
+
 let g:airline#extensions#tabline#enabled = 1
 
 " ALE (lint)
