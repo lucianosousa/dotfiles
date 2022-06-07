@@ -1,7 +1,5 @@
 autocmd BufWritePre * :%s/\s\+$//e
 
-color desert
-
 let mapleader=","
 
 " Fzf mapping replacing ControlP command
@@ -48,6 +46,8 @@ filetype plugin indent on
 " Vim Plug: https://github.com/junegunn/vim-plug
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'github/copilot.vim'
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdtree'
