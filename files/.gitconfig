@@ -3,7 +3,7 @@
   editor = vim
 [diff]
   algorithm = patience
-  oprefix = true
+  noprefix = true
 [user]
   name =
   email =
