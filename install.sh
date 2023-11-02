@@ -2,7 +2,7 @@
 
 set -e
 
-sudo apt-get install -y ripgrep
+sudo apt-get install -y ripgrep neovim
 
 dotfiles=(.gemrc .vimrc .bashrc .bash_profile .git-completion.bash .git-prompt.sh .gitignore_global)
 
